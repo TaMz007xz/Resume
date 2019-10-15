@@ -18,6 +18,7 @@
 
 .personal-info {
   width: 36.7777778%;
+  margin: 10px 10px 10px 10px;
 }
 
 .resume .info {
@@ -33,7 +34,7 @@
 }
 
 .info {
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 i {
