@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.resume-container {
+  margin: 36px auto;
+  width: 90%;
+}
+
+.resume {
+  margin: 0 auto 53px;
+  width: 93.75%;
+}
+
+.resume .info-container {
+  float: left;
+}
+
+.personal-info {
+  width: 36.7777778%;
+}
+
+.resume .info {
+  width: 62.8888889%;
+}
+.image {
+  width: 100%;
+}
+
+.image .full-name {
+  font-size: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.info {
+  font-size: 1vw;
+}
+
+i {
+  size: 0.1vw;
+}
+
+.progressbar {
+  background-color: #f1f1f1;
+  border-radius: 13px;
+  padding: 3px;
+}
+
+.progressbar > div {
+  background-color: #9e9e9e;
+  height: 10px;
+  border-radius: 10px;
+}
