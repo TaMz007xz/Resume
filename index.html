@@ -17,8 +17,10 @@
         <div class="info-container personal-info">
           <div class="image">
             <img src="./profile.jpg" alt="profile" style="width: 100%;" />
-            <div class="full-name">Mr. Jakkrit Aryamuang</div>
+            Select your favorite background color: <input type="color" name="favcolor" value="#ff0000" id="bgColor">
+            <div class="full-name" contenteditable="true">Mr. Jakkrit Aryamuang</div>
           </div>
+          
           <p class="info">
             <i
               class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
@@ -49,9 +51,12 @@
               <i
                 class="fa fa-asterisk fa-fw w3-margin-right w3-large w3-text-teal"
               ></i>
-              <b>Skill</b>
+              <b>Skill</b> <br>
+              <input type="text" id="skill" style="width: 40%;" placeholder="New skill"> 
+              <input type="range" id="skillRange" style="width: 30%;" max="100" min="0"> 
+              <input type="button" id="addSkill" value="Add">
             </p>
-            <ul>
+            <ul id="listSkill">
               <li>
                 <p>Html</p>
                 <div class="progressbar">
